@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5394D63193DE3180001F8AF /* cvWienerFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D5D193DE3180001F8AF /* cvWienerFilter.cpp */; };
+		B5394D64193DE3180001F8AF /* cvNLM.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D5E193DE3180001F8AF /* cvNLM.cpp */; };
+		B5394D65193DE3180001F8AF /* cvGaussianSmooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D5F193DE3180001F8AF /* cvGaussianSmooth.cpp */; };
+		B5394D66193DE3180001F8AF /* cvBM3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D60193DE3180001F8AF /* cvBM3D.cpp */; };
+		B5394D67193DE3180001F8AF /* cvBilateralSmooth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D61193DE3180001F8AF /* cvBilateralSmooth.cpp */; };
+		B5394D6D193DE3690001F8AF /* libopencv_legacy.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5394D69193DE3690001F8AF /* libopencv_legacy.2.4.8.dylib */; };
+		B5394D6E193DE3690001F8AF /* libopencv_imgproc.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5394D6A193DE3690001F8AF /* libopencv_imgproc.2.4.8.dylib */; };
+		B5394D6F193DE3690001F8AF /* libopencv_highgui.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5394D6B193DE3690001F8AF /* libopencv_highgui.2.4.8.dylib */; };
+		B5394D70193DE3690001F8AF /* libopencv_core.2.4.8.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B5394D6C193DE3690001F8AF /* libopencv_core.2.4.8.dylib */; };
+		B5394D74193DE3B70001F8AF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B5394D73193DE3B70001F8AF /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B5394D51193DE2E70001F8AF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B5394D53193DE2E80001F8AF /* Image Denoising */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Image Denoising"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5394D5D193DE3180001F8AF /* cvWienerFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvWienerFilter.cpp; sourceTree = "<group>"; };
+		B5394D5E193DE3180001F8AF /* cvNLM.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvNLM.cpp; sourceTree = "<group>"; };
+		B5394D5F193DE3180001F8AF /* cvGaussianSmooth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvGaussianSmooth.cpp; sourceTree = "<group>"; };
+		B5394D60193DE3180001F8AF /* cvBM3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvBM3D.cpp; sourceTree = "<group>"; };
+		B5394D61193DE3180001F8AF /* cvBilateralSmooth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cvBilateralSmooth.cpp; sourceTree = "<group>"; };
+		B5394D69193DE3690001F8AF /* libopencv_legacy.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_legacy.2.4.8.dylib; path = ../../../../../usr/local/lib/libopencv_legacy.2.4.8.dylib; sourceTree = "<group>"; };
+		B5394D6A193DE3690001F8AF /* libopencv_imgproc.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.2.4.8.dylib; path = ../../../../../usr/local/lib/libopencv_imgproc.2.4.8.dylib; sourceTree = "<group>"; };
+		B5394D6B193DE3690001F8AF /* libopencv_highgui.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.2.4.8.dylib; path = ../../../../../usr/local/lib/libopencv_highgui.2.4.8.dylib; sourceTree = "<group>"; };
+		B5394D6C193DE3690001F8AF /* libopencv_core.2.4.8.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.2.4.8.dylib; path = ../../../../../usr/local/lib/libopencv_core.2.4.8.dylib; sourceTree = "<group>"; };
+		B5394D72193DE39E0001F8AF /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		B5394D73193DE3B70001F8AF /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5394D50193DE2E70001F8AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5394D6D193DE3690001F8AF /* libopencv_legacy.2.4.8.dylib in Frameworks */,
+				B5394D6E193DE3690001F8AF /* libopencv_imgproc.2.4.8.dylib in Frameworks */,
+				B5394D6F193DE3690001F8AF /* libopencv_highgui.2.4.8.dylib in Frameworks */,
+				B5394D70193DE3690001F8AF /* libopencv_core.2.4.8.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5394D4A193DE2E70001F8AF = {
+			isa = PBXGroup;
+			children = (
+				B5394D69193DE3690001F8AF /* libopencv_legacy.2.4.8.dylib */,
+				B5394D6A193DE3690001F8AF /* libopencv_imgproc.2.4.8.dylib */,
+				B5394D6B193DE3690001F8AF /* libopencv_highgui.2.4.8.dylib */,
+				B5394D6C193DE3690001F8AF /* libopencv_core.2.4.8.dylib */,
+				B5394D55193DE2E80001F8AF /* Image Denoising */,
+				B5394D54193DE2E80001F8AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5394D54193DE2E80001F8AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5394D53193DE2E80001F8AF /* Image Denoising */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5394D55193DE2E80001F8AF /* Image Denoising */ = {
+			isa = PBXGroup;
+			children = (
+				B5394D73193DE3B70001F8AF /* main.cpp */,
+				B5394D72193DE39E0001F8AF /* core.h */,
+				B5394D5D193DE3180001F8AF /* cvWienerFilter.cpp */,
+				B5394D5E193DE3180001F8AF /* cvNLM.cpp */,
+				B5394D5F193DE3180001F8AF /* cvGaussianSmooth.cpp */,
+				B5394D60193DE3180001F8AF /* cvBM3D.cpp */,
+				B5394D61193DE3180001F8AF /* cvBilateralSmooth.cpp */,
+			);
+			path = "Image Denoising";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5394D52193DE2E70001F8AF /* Image Denoising */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5394D5A193DE2E80001F8AF /* Build configuration list for PBXNativeTarget "Image Denoising" */;
+			buildPhases = (
+				B5394D4F193DE2E70001F8AF /* Sources */,
+				B5394D50193DE2E70001F8AF /* Frameworks */,
+				B5394D51193DE2E70001F8AF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Denoising";
+			productName = "Image Denoising";
+			productReference = B5394D53193DE2E80001F8AF /* Image Denoising */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5394D4B193DE2E70001F8AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Neo;
+				TargetAttributes = {
+					B5394D52193DE2E70001F8AF = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = B5394D4E193DE2E70001F8AF /* Build configuration list for PBXProject "Image Denoising" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5394D4A193DE2E70001F8AF;
+			productRefGroup = B5394D54193DE2E80001F8AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5394D52193DE2E70001F8AF /* Image Denoising */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5394D4F193DE2E70001F8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5394D65193DE3180001F8AF /* cvGaussianSmooth.cpp in Sources */,
+				B5394D64193DE3180001F8AF /* cvNLM.cpp in Sources */,
+				B5394D74193DE3B70001F8AF /* main.cpp in Sources */,
+				B5394D66193DE3180001F8AF /* cvBM3D.cpp in Sources */,
+				B5394D67193DE3180001F8AF /* cvBilateralSmooth.cpp in Sources */,
+				B5394D63193DE3180001F8AF /* cvWienerFilter.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B5394D58193DE2E80001F8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B5394D59193DE2E80001F8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B5394D5B193DE2E80001F8AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5394D5C193DE2E80001F8AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode6-Beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/usr/local/include,
+				);
+				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5394D4E193DE2E70001F8AF /* Build configuration list for PBXProject "Image Denoising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5394D58193DE2E80001F8AF /* Debug */,
+				B5394D59193DE2E80001F8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5394D5A193DE2E80001F8AF /* Build configuration list for PBXNativeTarget "Image Denoising" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5394D5B193DE2E80001F8AF /* Debug */,
+				B5394D5C193DE2E80001F8AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5394D4B193DE2E70001F8AF /* Project object */;
+}
